@@ -1,13 +1,5 @@
-#include <stdio.h>
-
-/**
- * main - Entry point
- * Return: Always 0 (Success)
- */
-
-int min(void)
+int main()
 {
- puts("\"Programming is like building a multilingual puzzle");
-
-  return (0);
+    printf("Hello world!\n");
+    return 0;
 }
