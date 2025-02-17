@@ -1,6 +1,6 @@
 #include <stdio.h>
+
 /**
-*
 * main - Printz "the size of various types on the computer it is compiled"
 *
 * Return: Always 0.
