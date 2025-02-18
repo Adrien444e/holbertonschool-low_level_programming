@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	int numbers;
+	char numbers;
 
 	for (numbers = 0; numbers <= 15; numbers++)
 	{
