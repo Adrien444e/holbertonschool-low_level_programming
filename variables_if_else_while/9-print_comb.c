@@ -1,17 +1,22 @@
 #include <stdio.h>
 
 /**
-*  main - Entry point
+* main - Entry point
 *
 * Return: Always 0 (Success)
 */
 int main(void)
 {
-	int numbers;
+	int x;
 
-	for (numbers = 0; numbers < 10; numbers++)
+	for (x = 0; x < 10; x++)
 	{
-		printf("%d", numbers);
+		putchar(x + '0');
+		if (x < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	putchar ('\n');
