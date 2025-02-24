@@ -2,7 +2,8 @@
 
 /**
  * print_numbers - Entry point
- * @a: variable a
+ *
+ * Return: None
  */
 
 void print_numbers(void)
