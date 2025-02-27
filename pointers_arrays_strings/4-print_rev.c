@@ -3,12 +3,12 @@
 /**
  * print_rev - Entry point.
  * @s: variable s
- * Return: 0 (Success)
+ * Return: chaine (Success)
  */
 
 void print_rev(char *s)
 {
-	int chaine;
+	int chaine = 0;
 	int inv;
 
 	while (s[chaine] != '\0')
