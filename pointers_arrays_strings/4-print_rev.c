@@ -3,7 +3,7 @@
 /**
  * print_rev - Entry point.
  * @s: variable s
- *
+ * Return: 0 (Success)
  */
 
 void print_rev(char *s)
@@ -16,9 +16,11 @@ void print_rev(char *s)
 		chaine++;
 	}
 
-	for (inv = chaine -1; inv >= '\0'; inv--)
+	for (inv = chaine - 1; inv >= '\0'; inv--)
 	{
 		_putchar(s[inv]);
 	}
 	_putchar('\n');
+
+	return (0);
 }
