@@ -3,7 +3,6 @@
 /**
  * puts2 - Entry point
  * @str: variable str
- * 
  */
 
 void puts2(char *str)
