@@ -18,7 +18,7 @@ void puts_half(char *str)
 	}
 
 	jng = half / 2;
-	if (jng % 2 == 1)
+	if (half % 2 == 1)
 	{
 		jng++;
 	}
@@ -26,7 +26,7 @@ void puts_half(char *str)
 	while (jng < half)
 	{
 		_putchar(str[half]);
-		half++;
+		jng++;
 	}
 	_putchar('\n');
 }
